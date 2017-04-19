@@ -1,3 +1,14 @@
+## 0.11.0 (WIP)
+
+BACKWARDS INCOMPATIBILITES:
+
+* `TransactionGateway` `Create` now takes a `TransactionRequest`.
+
+IMPROVEMENTS:
+
+* `CurrencyISOCode` added to `Transaction`.
+* `RiskDataRequest` added and can be set on `TransactionRequest` when calling `TransactionGateway` `Create`.
+
 ## 0.10.0 (April 14th, 2016)
 
 BACKWARDS INCOMPATIBILITES:
