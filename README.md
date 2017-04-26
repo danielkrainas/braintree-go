@@ -26,7 +26,7 @@ bt := braintree.New(
 So is creating your first transaction.
 
 ```go
-tx, err := bt.Transaction().Create(&braintree.Transaction{
+tx, err := bt.Transaction().Create(&braintree.TransactionRequest{
   Type: "sale",
   Amount: braintree.NewDecimal(100, 2), // 100 cents
   CreditCard: &braintree.CreditCard{
@@ -90,3 +90,5 @@ THE SOFTWARE.
 
 - [Erik Aigner](http://github.com/eaigner)
 - [Kayle Gishen](https://github.com/kayleg)
+- [Jesse Szwedko](https://github.com/jszwedko)
+- [Leigh McCulloch](https://github.com/leighmcculloch)
